@@ -1,0 +1,13 @@
+h1=(1,2,3,4,5,5)
+h2=(6,7,6,8,9)
+print("The length of tuple is", len(h1))
+print("The concatenation of two tuples is",h1+h2)
+print("The repetation of two tuple is",h1*2)
+print(3 in h1)
+print("The iteration")
+for x in (h1):
+print(x)
+print("The maximum value : ",max(h1))
+print("The minimum value :",min(h1))
+print("The sorted value :". sorted(h1))
+print("The sum value :", sum(h1))
